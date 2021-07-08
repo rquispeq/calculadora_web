@@ -74,11 +74,11 @@ document.getElementById('equals').addEventListener('click',function(){
         }
 
         input.textContent = result;
-        numbers[1] = result;
+        numbers[1] = result.toString();
         numbers[2] = '0';
         is_operating = false;
         operator.textContent = '';
-        number_operation = 2;
+        number_operation = 1;
     }
 });
 
