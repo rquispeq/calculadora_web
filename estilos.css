@@ -1,0 +1,118 @@
+body{
+    background-color: #3c4755;
+    font-family:  monospace
+}
+
+button{
+    font-family:  monospace
+
+}
+
+/* BODY CALCULADORA */
+
+.main-container{
+    text-align: center;
+}
+
+/* HEADER */
+.calculadora{
+    display: inline-block;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-bottom: 25px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.header .title{
+    text-align: left;
+}
+
+
+/* input */
+
+.input{
+    background-color: #1d1d35;
+    padding: 20px 10px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: right;
+}
+
+.operator{
+    position: absolute;
+}
+
+
+/* BUTTON CONTAINER */
+
+.buttons-container{
+    margin-top: 10px;
+    background-color: #2e2e42;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div.row{
+    padding: 5px;
+}
+
+
+/* BUTTONS */
+
+div.button,div.big-button{
+    display: inline-block;
+}
+
+div.button{
+    width: 20%;
+    margin: 5px;
+}
+
+
+.button button,.big-button button{
+    cursor: pointer;
+    background-color: #dadada;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: auto;
+    font-weight: bold;
+    box-shadow: 0px 4px 0px #9b9b9b;
+    font-size: 20px;
+    width: 80px;
+    transition: all ease 100ms ;
+}
+
+.big-button{
+    width:47%
+}
+
+.big-button button{
+    width: 100%;
+}
+
+button.grey,button.red{
+    color: white;
+}
+
+button.grey{
+    background-color: #7479a8;
+    box-shadow: 0px 4px 0px #515158;
+}
+
+button.red{
+    background-color: #a72c2c;
+    box-shadow: 0px 4px 0px #6e1d1d;
+}
+button:active{
+    transform: translateY(4px);
+    box-shadow: 0px 0px 0px #9b9b9b;
+}

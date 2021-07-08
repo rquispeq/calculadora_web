@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="calculadora">
+            <div class="header">
+                <div class="title">calculator</div>
+                <div class="theme"></div>
+            </div>
+            <div class="input">
+                <div class="operator"></div>
+                <div class="input-number">0</div>
+            </div>
+            <div class="buttons-container">
+                <div class="row">
+                    <div class="button"> <button class="number">7</button></div>
+                    <div class="button"> <button class="number">8</button></div>
+                    <div class="button"> <button class="number">9</button></div>
+                    <div class="button"> <button id="delete" class="grey">DEL</button></div>
+                </div>
+                <div class="row">
+                    <div class="button"> <button class="number">4</button></div>
+                    <div class="button"> <button class="number">5</button></div>
+                    <div class="button"> <button class="number">6</button></div>
+                    <div class="button"> <button class="operators">+</button></div>
+                </div>
+                <div class="row">
+                    <div class="button"> <button class="number">1</button></div>
+                    <div class="button"> <button class="number">2</button></div>
+                    <div class="button"> <button class="number">3</button></div>
+                    <div class="button"> <button class="operators">-</button></div>
+                </div>
+                <div class="row">
+                    <div class="button"> <button class="number">.</button></div>
+                    <div class="button"> <button class="number">0</button></div>
+                    <div class="button"> <button class="operators">/</button></div>
+                    <div class="button"> <button class="operators">x</button></div>
+                </div>
+                <div class="row" >
+                    <div class="big-button"><button class="grey" id="reset">RESET</button></div>
+                    <div class="big-button"><button class="red" id="equals">=</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
