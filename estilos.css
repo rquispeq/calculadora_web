@@ -3,9 +3,12 @@ body{
     font-family:  monospace
 }
 
+*{
+    box-sizing: border-box;
+}
+
 button{
     font-family:  monospace
-
 }
 
 /* BODY CALCULADORA */
@@ -71,11 +74,16 @@ div.button,div.big-button{
     display: inline-block;
 }
 
-div.button{
-    width: 3rem;
-    margin: 5px;
+#delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.big-button-container{
+    display: flex;
+    justify-content: space-between;
+}
 
 .button button,.big-button button{
     cursor: pointer;
